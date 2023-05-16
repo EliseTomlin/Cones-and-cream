@@ -2200,6 +2200,7 @@ input, select, textarea {
 		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
+
 	
 
 		#header:before {
@@ -2775,6 +2776,8 @@ input, select, textarea {
 
 			h2 {
 				font-size: 1.75em;
+				margin-top: -4em;
+				position: relative;
 			}
 
 			h3 {
@@ -2869,12 +2872,33 @@ input, select, textarea {
 			input[type="reset"],
 			button,
 			.button {
-				display: block;
+				display: inline-block;
 				padding: 0;
 				line-height: 3em;
 				width: 100%;
 			}
-
+			@media screen and (max-width: 768px){
+				.circled{
+					position: absolute;
+					top:23em;
+					right:14em;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				#logo{
+					display: block;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				#service{
+					height: 15em;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				#ourStory, #specialCake{
+					margin-top: 0em;			
+				}
+			}
 		/* Nav */
 
 			#page-wrapper {
