@@ -2238,7 +2238,7 @@ input, select, textarea {
 
 			#header h1 a {
 				color: black;
-				padding-left: 8em;
+				padding-left: 9em;
 				font-family: 'dancing script', 'source sans pro', sans-serif;
 			}
 
@@ -2805,6 +2805,7 @@ input, select, textarea {
 
 			header > p {
 				font-size: 1.25em;
+				padding-top: 0.1em;
 			}
 
 		/* Image */
@@ -2880,14 +2881,15 @@ input, select, textarea {
 			@media screen and (max-width: 768px){
 				.circled{
 					position: absolute;
-					top:23em;
-					right:14em;
+					top:25em;
+					right:13em;
 				}
 			}
 			@media screen and (max-width: 768px) {
 				#logo{
 					display: block;
 				}
+			
 			}
 			@media screen and (max-width: 768px) {
 				#service{
