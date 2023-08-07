@@ -2888,6 +2888,7 @@ input, select, textarea {
 			@media screen and (max-width: 768px) {
 				#logo{
 					display: block;
+					padding-left: 9em;
 				}
 			
 			}
@@ -2896,6 +2897,7 @@ input, select, textarea {
 					height: 15em;
 				}
 			}
+			
 			@media screen and (max-width: 768px) {
 				#ourStory, #specialCake{
 					margin-top: 0em;			

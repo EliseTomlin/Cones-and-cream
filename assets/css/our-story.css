@@ -3157,3 +3157,27 @@ input, select, textarea {
 					}
 
 	}
+	@media screen and (max-width: 768px){
+		.circled{
+			position: absolute;
+			top:25em;
+			right:13em;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		#logo{
+			display: block;
+		}
+	
+	}
+	@media screen and (max-width: 768px) {
+		#service{
+			height: 15em;
+		}
+	}
+	
+	@media screen and (max-width: 768px) {
+		#ourStory, #specialCake{
+			margin-top: 0em;			
+		}
+	}
